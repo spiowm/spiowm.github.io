@@ -1,0 +1,36 @@
+.advantages{
+  padding: 73px 0 65px 0;
+  background-color: $gray-color;
+  &__wrapper{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  &__item{
+    width: 275px;
+    margin-right: 50px;
+    img{
+      margin: 0 auto;
+      display: block;
+      width: 70px;
+    }
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+  &__title{
+    margin-top: 35px;
+    color: #0D0D0D;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+  }
+  &__description{
+    margin-top: 20px;
+    color: #0D0D0D;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+  }
+}

@@ -1,0 +1,19 @@
+.consultation {
+  max-height: 680px;
+  padding: 80px 0 80px 0;
+  background: url('../img/consultation/3.png') center (center/cover) no-repeat;
+
+  &__title {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $light-color;
+    font-size: 36px;
+    text-align: left;
+  }
+
+  &__description {
+    color: $light-color;
+    font-size: 20px;
+    font-weight: 500;
+  }
+}

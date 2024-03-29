@@ -1,0 +1,20 @@
+.sign_up {
+  padding: 200px 0 100px;
+  margin: 0 auto;
+}
+
+.registration {
+  background-color: $gray-color;
+  padding: 20px 25px 20px 25px;
+  min-height: 300px;
+  width: 350px;
+  margin: 0 auto;
+  border: 2px solid #e8e8e8;
+  border-radius: 10px;
+
+  &__link {
+    text-decoration: none;
+    color: $accent-color;
+    font-style: italic;
+  }
+}
